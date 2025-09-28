@@ -1,8 +1,6 @@
 package payments;
 
-/**
- * Адаптер: переводит интерфейс PayPalService в PaymentProcessor.
- */
+
 public class PayPalAdapter implements PaymentProcessor {
     private final PayPalService payPalService;
 
